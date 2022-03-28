@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,11 +11,18 @@ header {
     padding-top: 23px;
 }
 
-.container{
+.container {
     max-width: 1152px;
     margin: auto;
     width: 100%;
 }
+
+.nav-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .background-section {
     background-image: url("../image/Background_richard.png");
     background-repeat: no-repeat;
@@ -23,14 +30,68 @@ header {
     background-position: center;
     padding-top: 431px;
     padding-bottom: 277px;
-
 }
+.background-font_2 {
+    background-image: url("../image/font_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 431px;
+    padding-bottom: 277px;
+}
+.a-class-sect-3{
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #333333;
+}
+.owl-nav{
+    display: none;
+}
+
 .header-nav {
     list-style-type: none;
     display: flex;
 }
 
-.link_to_app{
+.nav-li {
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    display: inline-block;
+    text-decoration: none;
+}
+.nav-li:hover{
+    color: #D6D6D6;
+
+}
+
+.mr-rig-30 {
+    margin-right: 30px;
+}
+
+.class-moment {
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 80px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.launch-class {
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.link_to_app {
     background: #FC0A7E;
     border-radius: 3px;
     padding: 20px 40px;
@@ -38,8 +99,21 @@ header {
     font-size: 16px;
     display: inline-block;
     color: #FFFFFF;
+    text-decoration: none;
 }
-.background-section_2{
+
+.link_to_app:hover {
+    background: deeppink;
+}
+
+.down-class {
+    position: relative;
+    left: 50%;
+    bottom: -260px;
+
+}
+
+.background-section_2 {
     background-image: url("../image/backg_section_2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,7 +121,8 @@ header {
     padding-top: 100px;
     padding-bottom: 711px;
 }
-.h3-section-2{
+
+.h3-section-2 {
     font-family: 'Gothic A1', sans-serif;
     font-size: 12px;
     line-height: 20px;
@@ -57,7 +132,8 @@ header {
     color: #A8A8A8;
     margin-bottom: 30px;
 }
-.h1-section-2{
+
+.h1-section-2 {
     font-weight: 400;
     font-family: 'Gothic A1', sans-serif;
     font-size: 38px;
@@ -65,19 +141,23 @@ header {
     text-align: center;
     color: #FFFFFF;
 }
-.pad-top{
+
+.pad-top {
     padding-top: 80px;
     padding-bottom: 160px;
 }
-.sect_3_df{
+
+.sect_3_df {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.noodles_block1{
+
+.noodles_block1 {
     margin-right: 199px;
 }
-.h3-noodles-blk1{
+
+.h3-noodles-blk1 {
     font-family: 'Gothic A1', sans-serif;
     font-size: 12px;
     line-height: 20px;
@@ -86,7 +166,8 @@ header {
     color: #A8A8A8;
     padding-bottom: 30px;
 }
-.h1-noodles-blk1{
+
+.h1-noodles-blk1 {
     font-family: 'Gothic A1', sans-serif;;
     font-style: normal;
     font-weight: 400;
@@ -95,51 +176,63 @@ header {
     color: #000000;
     padding-bottom: 22px;
 }
-.p-noodles-blk1{
+
+.p-noodles-blk1 {
     font-family: 'Gothic A1', sans-serif;;;
     font-size: 16px;
     line-height: 30px;
     color: #6B6B6B;
 }
-.mr-rig-144{
+
+.mr-rig-144 {
     margin-right: 144px;
 }
-.pad-bt-160{
+
+.pad-bt-160 {
     padding-bottom: 160px;
 }
-.mr-rig-165{
+
+.mr-rig-165 {
     margin-right: 165px;
 }
-.d-flex-page{
+
+.d-flex-page {
     display: flex;
     justify-content: space-between;
 }
-.div-page-center{
+
+.div-page-center {
     text-align: center;
+
 }
-.h1-page{
+
+.h1-page {
     font-family: 'Gothic A1', sans-serif;
     font-size: 18px;
     line-height: 24px;
-   margin: 40px 0 17px 0;
+    margin: 40px 0 17px 0;
     color: #000000;
 }
-.p-page{
+
+.p-page {
     font-family: 'Gothic A1', sans-serif;
     font-size: 16px;
     line-height: 30px;
     color: #6B6B6B;
 }
-.pad-bot-170{
+
+.pad-bot-170 {
     padding-bottom: 170px;
 }
-.span-number{
+
+.span-number {
     font-family: 'Gothic A1', sans-serif;
     font-size: 59px;
     line-height: 90px;
     color: #333333;
 }
-.p-under-num{
+
+.p-under-num {
     font-family: 'Gothic A1', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -147,16 +240,20 @@ header {
     line-height: 24px;
     color: #000000;
 }
-.mr-rig-burger{
+
+.mr-rig-burger {
     margin-right: 82px;
 }
-.mr-salat{
+
+.mr-salat {
     margin-right: 77px;
 }
-.mr-bt-66{
+
+.mr-bt-66 {
     margin-bottom: 66px;
 }
-.p-description{
+
+.p-description {
     font-family: 'Gothic A1', sans-serif;
     font-size: 24px;
     line-height: 40px;
@@ -164,12 +261,14 @@ header {
     color: #6B6B6B;
     margin-bottom: 17px;
 }
-.line-p{
-   position: relative;
+
+.line-p {
+    position: relative;
     padding: 0 20px;
     bottom: 3px;
 }
-.p-under-description{
+
+.p-under-description {
     font-family: 'Gothic A1', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -177,10 +276,12 @@ header {
     line-height: 30px;
     color: #6B6B6B;
 }
+
 .owl-carousel .owl-item img {
-display: unset;
-width: unset;
+    display: unset;
+    width: unset;
 }
+
 .owl-dots {
     position: absolute;
     bottom: 80px;
@@ -212,22 +313,26 @@ width: unset;
     background-color: #fce7f2;
     color: #860da6;
 }
+
 .ui-icon, .ui-widget-content .ui-icon {
     background-color: #2B59C3;
     border-radius: 50%;
     width: 15px;
     height: 15px;
 }
-.pad-bot-118{
+
+.pad-bot-118 {
     padding-bottom: 118px;
 }
-.backg-tel{
+
+.backg-tel {
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-.backg-volna{
+
+.backg-volna {
     background-image: url("../image/back_volna.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -237,6 +342,7 @@ width: unset;
     position: relative;
     bottom: 4px;
 }
+
 .download {
     font-family: 'Gothic A1', sans-serif;
     font-size: 16px;
@@ -247,6 +353,10 @@ width: unset;
     color: #FFFFFF;
     background: #FC0A7E;
     border-radius: 3px;
+}
+
+.download:hover {
+    background: deeppink;
 }
 
 .a-get {
@@ -260,16 +370,23 @@ width: unset;
     border: 1px solid white;
     border-radius: 3px;
 }
+
+.a-get:hover {
+    border: 1px solid deeppink;
+}
+
 .main-ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
 
 }
-.mr-bot{
+
+.mr-bot {
     margin-bottom: 40px;
 }
-.backg-black{
+
+.backg-black {
     background-image: url("../image/backg_black.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -279,7 +396,8 @@ width: unset;
     position: relative;
     bottom: 4px;
 }
-.h1-section-black{
+
+.h1-section-black {
     font-family: 'Gothic A1', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -289,7 +407,8 @@ width: unset;
     color: #FFFFFF;
     margin-bottom: 20px;
 }
-.p-section-black{
+
+.p-section-black {
     font-family: 'Gothic A1', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -297,8 +416,10 @@ width: unset;
     line-height: 30px;
     text-align: center;
     color: #6B6B6B;
+    margin-bottom: 40px;
 }
-.input-name{
+
+.input-name {
     background: #FFFFFF;
     box-shadow: 0 0 0 #FC0A7E;
     border-radius: 3px 0 0 3px;
@@ -307,9 +428,10 @@ width: unset;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-padding: 22px 155px 22px 3px;
+    padding: 22px 155px 22px 3px;
 }
-.btn_inp{
+
+.btn_inp {
     background: #FC0A7E;
     border-radius: 0 3px 3px 0;
     font-family: 'Gothic A1', sans-serif;
@@ -319,4 +441,42 @@ padding: 22px 155px 22px 3px;
     line-height: 26px;
     text-align: center;
     padding: 22px 40px;
+    cursor: pointer;
+}
+
+.btn_inp:hover {
+    background: deeppink;
+}
+
+.input-name::placeholder {
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-right: 10px;
+}
+.mr-bt-146{
+    margin-bottom: 146px;
+}
+.mr-bt-29{
+    margin-bottom: 29px;
+}
+.footer-nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: center
+}
+.footer-li{
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #6B6B6B;
+    display: inline-block;
+    text-decoration: none;
+}
+.footer-li:hover{
+    color: #A8A8A8;
 }

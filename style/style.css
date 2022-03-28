@@ -150,7 +150,7 @@ header {
 .sect_3_df {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around
 }
 
 .noodles_block1 {
@@ -196,7 +196,8 @@ header {
     margin-right: 165px;
 }
 
-.d-flex-page {
+
+.d-flex-page-nor1 {
     display: flex;
     justify-content: space-between;
 }

@@ -1,0 +1,29 @@
+@media only screen and (max-width: 970px) {
+   .mr-rig-30{
+       margin-right: 15px;
+   }
+    .sect_3_df {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .mr-rig-burger {
+        margin-bottom: 82px;
+        margin-right: unset;
+    }
+.media-mr-bt{
+    margin-bottom: 70px;
+}
+    .mr-salat{
+        margin-bottom: 82px;
+        margin-right: unset;
+    }
+    .img{
+        display: none;
+    }
+    .d-flex-page-nor1{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+}
